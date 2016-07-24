@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(240, 241,246);
+    font-family: sans-serif;
+}
+
+.bordered{
+    border-bottom: 1px solid;
+    border-color: #1f1f1f;
+}
+
+#name {
+    height: 26px;
+    width: 481px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 24px;
+}
+
+#name h1{
+    font-size: 26px;
+}
+
+#pic{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    height: 202px;
+    width: 202px;
+}
+
+#pic-descr{
+    margin: auto;
+    margin-top: 25px;
+    width: 500px;
+    color: #1f1f1f;
+    font-size: 12px;
+}
+
+#descr{
+    margin: auto;
+    width: 500px;
+    font-size: 14px;
+}
+
+#contact{
+    margin: auto;
+    width: 500px;
+    font-size: 14px
+}
+
+#contact a{
+    font-style: italic;
+}
+
+#exp{
+    margin: auto;
+    width: 500px;
+    font-size: 14px
+}
