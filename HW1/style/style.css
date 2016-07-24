@@ -48,12 +48,21 @@ body{
     font-size: 14px
 }
 
+#contact p{
+    padding-left: 40px;
+}
+
 #contact a{
     font-style: italic;
+    padding-left: 10px;
 }
 
 #exp{
     margin: auto;
     width: 500px;
     font-size: 14px
+}
+
+#exp p{
+    padding-left: 40;
 }
