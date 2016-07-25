@@ -1,6 +1,6 @@
 body{
     background-color: rgb(240, 241,246);
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
 }
 
 .bordered{
@@ -17,6 +17,7 @@ body{
 }
 
 #name h1{
+    font-family: "Arial", sans-serif;
     font-size: 36px;
 }
 
@@ -31,16 +32,18 @@ body{
 #pic-descr{
     margin: auto;
     margin-top: 22px;
+    padding-bottom: 8px;
     width: 650px;
     color: #1f1f1f;
     font-size: 12px;
-    padding-bottom: 8px;
+    font-family: "Arial", sans-serif;
 }
 
 #descr{
     margin: auto;
     width: 650px;
     font-size: 14px;
+    font-family: "MyriadPro", sans-serif;
 }
 
 #list{
@@ -64,6 +67,7 @@ body{
     margin: auto;
     width: 650px;
     font-size: 14px;
+    font-family: "MyriadPro", sans-serif;
 }
 
 #contact p{
@@ -82,9 +86,10 @@ body{
 
 #exp{
     margin: auto;
+    margin-top: -7px;
     width: 650px;
     font-size: 14px;
-    margin-top: -7px;
+    font-family: "MyriadPro", sans-serif;
 }
 
 #exp p{
