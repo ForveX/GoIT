@@ -5,12 +5,8 @@ body{
 }
 
 @font-face {
-    font-family: "MyriadProSemiBold';
-    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf");
-    /*font-family: "MyriadProRegular";
-    src: url("../fonts/MyriadProRegular/MyriadProRegular.ttf");
-    font-family: "MyriadProItalic";
-    src: url("../fonts/MyriadProItalic/MyriadProItalic.ttf");*/
+    font-family: 'MyriadProSemiBold';
+    src: url('../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf');
 }
 
 .content{
@@ -32,7 +28,7 @@ body{
 }
 
 .name h1{
-    font-family: "MyriadProSemiBold", sans-serif;
+    font-family: 'MyriadProSemiBold', sans-serif;
     font-size: 36px;
 }
 
@@ -49,16 +45,16 @@ body{
     padding-bottom: 8px;
     color: #1f1f1f;
     font-size: 12px;
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 .descr{
     font-size: 14px;
-    font-family: "MyriadPro", sans-serif;
+    font-family: 'MyriadPro', sans-serif;
 }
 
 .descr h1{
-    "MyriadProSemiBold", sans-serif;
+    'MyriadProSemiBold', sans-serif;
 }
 
 .list{
@@ -80,11 +76,11 @@ body{
 
 .contact{
     font-size: 14px;
-    font-family: "MyriadPro", sans-serif;
+    font-family: 'MyriadPro', sans-serif;
 }
 
 .contact h1{
-    font-family: "MyriadProSemiBold", sans-serif;
+    font-family: 'MyriadProSemiBold', sans-serif;
 }
 
 .contact p{
@@ -102,7 +98,7 @@ body{
 }
 
 .othercnt h1{
-    font-family: "MyriadProSemiBold", sans-serif;
+    font-family: 'MyriadProSemiBold', sans-serif;
 }
 
 .ypage{
@@ -112,11 +108,11 @@ body{
 
 .exp{
     font-size: 14px;
-    font-family: "MyriadPro", sans-serif;
+    font-family: 'MyriadPro', sans-serif;
 }
 
 .exp h1{
-    font-family: "MyriadProSemiBold", sans-serif;
+    font-family: 'MyriadProSemiBold', sans-serif;
 }
 
 .exp p{
