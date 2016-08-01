@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'MyriadProSemiBold';
-src: url('../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf');
+	font-family: 'OpenSans';
+src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 body{
@@ -27,8 +27,10 @@ body{
 }
 
 .nav-bar{
-	margin-top: 35px;
-	background: url("../img/panel_header.jpg");
+	margin-top: 38px;
+	margin-left: 3px;
+	height: 40px;
+	background: url('../img/panel_header.jpg');
 }
 
 .btn{
@@ -47,14 +49,16 @@ body{
 	letter-spacing:-1px;
 }
 .btn li{
-	font-size: 15px;
-	line-height: 40px;
-	letter-spacing:normal;
 	display: inline-block;
+	width: 100px;
+	margin-right: 8px;
+	margin-left: 22px;
+	padding-top: 4px;
+	text-align: center;
 }
 
 .btn:hover {
-	background: url("../img/link.jpg");
+	background: url('../img/link.jpg');
 }
 
 .cnt-container{
@@ -62,7 +66,7 @@ body{
 }
 
 .sidebar{
-	margin-top: 10px;
+	margin-top: 22px;
 	float: left;
 }
 
@@ -83,8 +87,11 @@ body{
 	text-decoration: none;
 }
 
-.sb-btn:hover{
+.sb-btn li:hover{
 	background-color: #f9f9f9;
+}
+
+.sb-btn a:hover{
 	padding-left: 20px;
 }
 
@@ -94,14 +101,14 @@ body{
 }
 
 .content{
-	margin-top: -22px;
+	margin-top: 0;
 	float: right;
 }
 
 .frame {
-	margin-top: 47px;
-	width: 678px;
-	height: 400px;
+	margin-top: 40px;
+	width: 677px;
+	height: 398px;
 	background-color: white;
 	border: 1px solid #c8c8c8;
 }
@@ -109,15 +116,15 @@ body{
 .img{
 	width: 500px;
 	height: 307px;
-	margin-left: 89px;
-	margin-right: 89px;
-	margin-top: 10px;
+	margin: auto;
+	margin-top: -8px;
 }
 
 .content-txt{
 	width: 625px;
-	margin-top: 40px;
+	margin-top: 33px;
 	margin-left: 25px;
 	font-family: 'OpenSans', sans-serif;
 	font-size: 13px;
+	line-height: 21px;
 }
