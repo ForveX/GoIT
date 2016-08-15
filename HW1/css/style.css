@@ -25,6 +25,7 @@ body{
     margin: auto;
     margin-top: 42px;
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .name h1{
@@ -54,7 +55,7 @@ body{
 }
 
 .descr h1{
-    'MyriadProSemiBold', sans-serif;
+    font-family: 'MyriadProSemiBold', sans-serif;
 }
 
 .list{
